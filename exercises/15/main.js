@@ -18,7 +18,7 @@ function generuotiSocials(selector, iconList) {
     }
 
     let htmlElements = '';
-    for (let i = 0; i < iconList; i++) {
+    for (let i = 0; i < iconList.length; i++) {
         if (typeof iconList[i] !== 'string' ||
             iconList[i].length === 0) {
             continue;
